@@ -1,10 +1,9 @@
 {
-	"name": "Concretexture",
-	"version": "1.2.2",
-	"title": "Concretexture",
-	"author": "GotLag",
+	"name": "Concretexture-2.0",
+	"version": "1.3.0",
+	"title": "Concretexture - updated for 2.0",
+	"author": "SophieFitz",
 	"description": "Concrete retextured to not look like stone blocks.",
-	"factorio_version": "1.1",
-	"dependencies": ["base >= 1.1",
-					 "? SeaBlock"]
+	"factorio_version": "2.0",
+	"dependencies": ["base >= 2.0"]
 }
