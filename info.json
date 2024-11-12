@@ -5,6 +5,5 @@
 	"author": "GotLag",
 	"description": "Concrete retextured to not look like stone blocks.",
 	"factorio_version": "1.1",
-	"dependencies": ["base >= 1.1",
-					 "? SeaBlock"]
+	"dependencies": ["base >= 1.1"]
 }
