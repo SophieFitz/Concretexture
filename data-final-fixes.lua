@@ -15,9 +15,9 @@ if ctex ~= "concrete" then -- only change the concrete texture if it's not vanil
     data.raw.tile["hazard-concrete-right"].variants.material_background.picture = "__base__/graphics/terrain/hazard-concrete-right/refined-hazard-concrete-right.png"
   else
     -- use custom texture from setting
-    data.raw.tile["concrete"].variants.material_background.picture = "__Concretexture__/" .. ctex .. "/concrete.png"
-    data.raw.tile["hazard-concrete-left"].variants.material_background.picture = "__Concretexture__/" .. ctex .. "/hazard-concrete-left.png"
-    data.raw.tile["hazard-concrete-right"].variants.material_background.picture = "__Concretexture__/" .. ctex .. "/hazard-concrete-right.png"
+    data.raw.tile["concrete"].variants.material_background.picture = "__Concretexture-2_0__/" .. ctex .. "/concrete.png"
+    data.raw.tile["hazard-concrete-left"].variants.material_background.picture = "__Concretexture-2_0__/" .. ctex .. "/hazard-concrete-left.png"
+    data.raw.tile["hazard-concrete-right"].variants.material_background.picture = "__Concretexture-2_0__/" .. ctex .. "/hazard-concrete-right.png"
   end
 end
 
@@ -33,10 +33,10 @@ if rtex ~= "refined" then -- only change the refined concrete texture if it's no
     tex = "__base__/graphics/terrain/concrete/concrete.png"
   else
     -- use custom texture from setting
-    data.raw.tile["refined-concrete"].variants.material_background.picture = "__Concretexture__/" .. rtex .. "/concrete.png"
-    data.raw.tile["refined-hazard-concrete-left"].variants.material_background.picture = "__Concretexture__/" .. rtex .. "/hazard-concrete-left.png"
-    data.raw.tile["refined-hazard-concrete-right"].variants.material_background.picture = "__Concretexture__/" .. rtex .. "/hazard-concrete-right.png"
-    tex = "__Concretexture__/" .. rtex .. "/concrete.png"
+    data.raw.tile["refined-concrete"].variants.material_background.picture = "__Concretexture-2_0__/" .. rtex .. "/concrete.png"
+    data.raw.tile["refined-hazard-concrete-left"].variants.material_background.picture = "__Concretexture-2_0__/" .. rtex .. "/hazard-concrete-left.png"
+    data.raw.tile["refined-hazard-concrete-right"].variants.material_background.picture = "__Concretexture-2_0__/" .. rtex .. "/hazard-concrete-right.png"
+    tex = "__Concretexture-2_0__/" .. rtex .. "/concrete.png"
   end
   -- retexture tinted concrete
   local colors = {"red", "green", "blue", "orange", "yellow", "pink", "purple", "black", "brown", "cyan", "acid"}
